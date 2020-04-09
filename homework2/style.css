@@ -115,16 +115,15 @@
 	}
 	.float-right img{
 		margin:0 0 10px 10px;	/* use this on an element (like an image) to make it float to the right of it's containing HTML element */
-	}
-	.clear{
-		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
 	}	
-    
+    .clear {
+        clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
+	}
 
     /* for 980px or less */
     @media screen and (max-width: 980px) {
-        body {
-            
+        div#header {
+            width: auto;
         }
         
         div.content {
@@ -140,6 +139,10 @@
         div.sidebar-left{
             width: 65%;
         }
+        div#footer {
+            width: auto;
+        }
+        
     }
 
     /* for 700px or less */
@@ -154,6 +157,21 @@
             width: auto;
             float: none;
         }
+
     }
 
+    /* for 480px or less */
+    @media screen and (max-width: 480px) {
+        
+        #header {
+            height: auto;
+        }
+        
+        h1 {
+            font-size: 24px;
+        }
+        div.sidebar-left {
+            display: none;
+        }
+}
 

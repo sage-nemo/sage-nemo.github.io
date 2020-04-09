@@ -157,6 +157,9 @@
             width: auto;
             float: none;
         }
+        div#footer {
+            width: auto;
+        }
 
     }
 
@@ -172,6 +175,9 @@
         }
         div.sidebar-left {
             display: none;
+        }
+        div#footer {
+            width: auto;
         }
 }
 

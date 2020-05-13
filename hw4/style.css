@@ -1,0 +1,22 @@
+body
+{
+  background-color: white;
+  color: #594846;
+font: "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
+}
+
+p {
+  margin: 2em 1em;
+}
+
+h1 {
+  font-size: 1.75em;
+	padding: 0.25em;
+  text-align: center;
+}
+
+.add-button {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My simple PWA Assignment</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+
+</head>
+<body>
+  <h1>
+    My simple PWA Assignment
+    </h1>
+    <label>Backgrounds:
+                <select id="backgrounds">
+                    <option>Select a background</option>
+                    <option value="/images/lightblue.jpg">Light Blue</option>
+                    <option value="/images/lightgold.jpg">Gold</option>
+                </select>
+            </label>
+            <button id="butInstall" aria-label="Install">Install PWA</button>
+    <p>
+      Progressive Web Apps are web apps that behave more like native apps.
+       There are many aspects to PWA including offline caching and push notifications to name a couple.
+        Part of having a site that utilizes PWA is service workers which allow for offline caching.
+        A service worker is a javascript file that is registered to the browser, in my case through my main.js file.
+    PWAs fall within a range from 0 to 100 rating.
+    To get a higher rating your app must be optimized to load quickly without clutter,
+    and use a service worker for caching.
+      </p>
+  <p>
+    The reasons to use PWA are many.
+     Most users will abandon a site if it does not load immediately.
+     PWAs make sites faster and caching the files allow for offline viewing.
+     If you're using a framework, PWAs allow for the user to load the framework's data based on their previous viewing.
+     So if they had been on a website previously that used bootstrap, PWAs allow for your site to take advantage of that by caching the data.
+  </p>
+</body>
+</html>

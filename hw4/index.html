@@ -9,6 +9,7 @@
   <link rel="manifest" href="manifest.json">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
   <script src="main.js"></script>
+  <script src="button.js"></script>
 
 </head>
 <body>
@@ -18,11 +19,11 @@
     <label>Backgrounds:
                 <select id="backgrounds">
                     <option>Select a background</option>
-                    <option value="/images/lightblue.jpg">Light Blue</option>
-                    <option value="/images/lightgold.jpg">Gold</option>
+                    <option value="images/lightblue.jpg">Light Blue</option>
+                    <option value="images/lightgold.jpg">Gold</option>
                 </select>
             </label>
-            <button id="butInstall" aria-label="Install">Install PWA</button>
+            <button class="add-button">Install PWA</button>
     <p>
       Progressive Web Apps are web apps that behave more like native apps.
        There are many aspects to PWA including offline caching and push notifications to name a couple.

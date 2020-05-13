@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,38 +13,40 @@
   <script src="button.js"></script>
 
 </head>
+
 <body>
   <h1>
     My simple PWA Assignment
-    </h1>
-    <label>Backgrounds:
-                <select id="backgrounds">
-                    <option>Select a background</option>
-                    <option value="https://raw.githubusercontent.com/sage-nemo/sage-nemo.github.io/master/hw4/images/lightblue.jpg">Light Blue</option>
-                    <option value="https://raw.githubusercontent.com/sage-nemo/sage-nemo.github.io/master/hw4/images/lightgold.jpg">Gold</option>
-                </select>
-            </label>
-            <button class="add-button">Add to home screen</button>
-    <p>
-      Progressive Web Apps are web apps that behave more like native apps.
-       There are many aspects to PWA including offline caching and push notifications to name a couple.
-        Part of having a site that utilizes PWA is service workers which allow for offline caching.
-        A service worker is a javascript file that is registered to the browser, in my case through my main.js file.
+  </h1>
+  <label>Backgrounds:
+    <select id="backgrounds">
+      <option>Select a background</option>
+      <option value="https://raw.githubusercontent.com/sage-nemo/sage-nemo.github.io/master/hw4/images/lightblue.jpg">Light Blue</option>
+      <option value="https://raw.githubusercontent.com/sage-nemo/sage-nemo.github.io/master/hw4/images/lightgold.jpg">Gold</option>
+    </select>
+  </label>
+  <button class="add-button">Add to home screen</button>
+  <p>
+    Progressive Web Apps are web apps that behave more like native apps.
+    There are many aspects to PWA including offline caching and push notifications to name a couple.
+    Part of having a site that utilizes PWA is service workers which allow for offline caching.
+    A service worker is a javascript file that is registered to the browser, in my case through my main.js file.
     PWAs fall within a range from 0 to 100 rating.
     To get a higher rating your app must be optimized to load quickly without clutter,
     and use a service worker for caching.
-      </p>
+  </p>
   <p>
     The reasons to use PWA are many.
-     Most users will abandon a site if it does not load immediately.
-     PWAs make sites faster and caching the files allow for offline viewing.
-     If you're using a framework, PWAs allow for the user to load the framework's data based on their previous viewing.
-     So if they had been on a website previously that used bootstrap, PWAs allow for your site to take advantage of that by caching the data.
+    Most users will abandon a site if it does not load immediately.
+    PWAs make sites faster and caching the files allow for offline viewing.
+    If you're using a framework, PWAs allow for the user to load the framework's data based on their previous viewing.
+    So if they had been on a website previously that used bootstrap, PWAs allow for your site to take advantage of that by caching the data.
   </p>
   <script>
     let deferredPrompt;
-const addBtn = document.querySelector('.add-button');
-addBtn.style.display = 'none';
-</script>
+    const addBtn = document.querySelector('.add-button');
+    addBtn.style.display = 'none';
+  </script>
 </body>
+
 </html>

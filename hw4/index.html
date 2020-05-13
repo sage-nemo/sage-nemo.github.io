@@ -23,7 +23,7 @@
                     <option value="https://raw.githubusercontent.com/sage-nemo/sage-nemo.github.io/master/hw4/images/lightgold.jpg">Gold</option>
                 </select>
             </label>
-            <button class="add-button">Install PWA</button>
+            <button class="add-button">Add to home screen</button>
     <p>
       Progressive Web Apps are web apps that behave more like native apps.
        There are many aspects to PWA including offline caching and push notifications to name a couple.
@@ -40,5 +40,10 @@
      If you're using a framework, PWAs allow for the user to load the framework's data based on their previous viewing.
      So if they had been on a website previously that used bootstrap, PWAs allow for your site to take advantage of that by caching the data.
   </p>
+  <script>
+    let deferredPrompt;
+const addBtn = document.querySelector('.add-button');
+addBtn.style.display = 'none';
+</script>
 </body>
 </html>
